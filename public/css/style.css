@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    box-shadow: 0px 0px 5px black;
+    font-size: 1.2vw;
+}
+
+#menu {
+    width: 100%;
+    background-color: #1a1a1d;
+    padding: 2% 0;
+
+}
+
+#logo {
+    width: 25%;
+    display: inline-block;
+    margin: 1% 2%;
+}
+
+#menu li img {
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+}
+
+ul {
+    display: inline-block;
+    margin-left: 5%;
+    text-align: right;
+    width: 65%;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 3%;
+    width: 10%;
+    text-align: center;
+}
+
+ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 0.8vw;
+}
+
+#banner {
+    width: 100%;
+}
+
+#sAbout {
+    width: 90%;
+    /* height: 420px; */
+    padding: 3% 5%;
+    gap: 10%;
+}
+
+#sAbout div {
+    display: inline-block;
+}
+
+#about {
+    width: 55%;
+}
+
+#logo_about {
+    width: 40%;
+}
+
+#logo_about {
+
+    text-align: center;
+    vertical-align: top;
+}
+
+#logo_about img {
+    width: 60%;
+}
+
+h2 {
+    font-size: 2.2vw;
+    margin-bottom: 5%;
+}
+
+p {
+    font-size: 1.2vw;
+    margin-bottom: 3%;
+}
+
+#pack {
+    width: 100%;
+    padding: 3% 0;
+    background-color: #334d5c;
+    color: white;
+}
+
+#iden {
+    width: 100%;
+    padding: 3% 0;
+}
+
+.deb {
+    margin-left: 17%;
+    margin-bottom: 2%;
+}
+
+.deb div {
+    width: 60%;
+    margin: 4% 0 0 12%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.deb img {
+    width: 20%;
+}
+
+.deb h2 {
+    font-size: 3.5vw;
+}
+
+.deb p {
+    font-size: 2.3vw;
+}
+
+.pCard {
+    width: 100%;
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 30%;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 2vw;
+    margin-bottom: 10%;
+}
+
+.card img {
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+.card p {
+    display: block;
+    width: 70%;
+    height: 30px;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.card button {
+    margin-top: 20%;
+    width: 60%;
+    height: 10%;
+    font-size: 1vw;
+}
+
+#pack .card button {
+    color: #334d5c;
+    font-weight: bold;
+}
+
+#iden .card button {
+    background-color: #393a3b;
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 5%;
+    padding: 3%;
+    width: 94%;
+    background-color: #393a3b;
+    color: white;
+}
+
+.footerD {
+    margin-left: 6%;
+    width: 27%;
+    display: inline-block;
+}
+
+.fTitre {
+    width: 100%;
+    margin-left: 8%;
+    font-size: 1.3vw;
+}
+
+.fIcon {
+    margin-top: 15%;
+    gap: 2%;
+    width: 100%;
+}
+
+.fIcon a {
+    text-decoration: none;
+}
+
+.fIcon img {
+
+    display: inline-block;
+    margin-left: 8%;
+    width: 20%;
+
+}
+
+footer p {
+    margin: 1% 0 0 98%;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        width: 100%;
+        margin: 0;
+        box-shadow: 0;
+    }
+
+    #logo {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    #menu ul {
+        margin: 0 6%;
+        width: 82%;
+    }
+
+    #menu li {
+        width: 13%;
+        text-align: center;
+    }
+    #menu li a {
+        font-size: 1.5vw;
+    }
+
+    #menu li img {
+        margin: 15% 14%;
+        display: block;
+    }
+    h2 {
+        font-size: 2.6vw;
+        margin-bottom: 5%;
+    }
+    
+    p {
+        font-size: 2vw;
+        margin-bottom: 3%;
+    }
+    .deb div {
+        margin: 6% 0 0 3%;
+    }
+
+    .deb img {
+        width: 30%;
+    }
+
+    .deb h2 {
+        font-size: 4.5vw;
+    }
+
+    .deb p {
+        font-size: 3vw;
+    }
+
+    .card button {
+        margin-top: 1%;
+    }
+
+    .pCard {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card h3 {
+        font-size: 5vw;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
+    .card img {
+        width: 60%;
+    }
+
+    .card p {
+        font-size: 3vw;
+    }
+
+    .card button {
+        width: 25%;
+        height: 40%;
+        font-size: 2vw;
+        margin-top: 3%;
+    }
+
+    .footerD {
+        width: 100%;
+        display: block;
+        margin-bottom: 15%;
+    }
+
+    .fTitre {
+        font-size: 5vw;
+        margin-left:35%;
+    }
+
+
+    .fIcon img {
+        width: 20%;
+        display: inline-block;
+    }
+    footer p{
+        margin-left:80%;
+        font-size: 5vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        width: 90%;
+        margin-left: 5%;
+    }
+    #logo {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    #menu ul {
+        margin: 0 6%;
+        width: 80%;
+    }
+
+    #menu li {
+        width: 12%;
+        text-align: center;
+    }
+
+    #menu li img {
+        margin: 15% 15%;
+        display: block;
+    }
+}
